@@ -722,12 +722,11 @@ textarea.form-input::-webkit-resizer { display: none; }
 /* Responsive larger than 450px Screen */
 @media (min-width: 450px) {
   .clients-item { min-width: calc(33.33% - 10px); }
-  .project-img,
-  .blog-banner-box { height: auto; }
+  .project-img, .blog-banner-box { height: auto; }
 }
 
 /* Responsive larger than 580px Screen */
-@media (min-width: 400px) {
+@media (min-width: 580px) {
   :root {
     --fs-1: 32px;
     --fs-2: 24px;
